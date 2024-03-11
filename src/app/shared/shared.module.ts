@@ -7,6 +7,7 @@ import { PageLoadingComponent } from './components/page-loading/page-loading.com
 import { SelectInfiniteScrollComponent } from './components/select-infinite-scroll/select-infinite-scroll.component';
 import { BackPageComponent } from './components/back-page/back-page.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { FilterChipComponent } from './components/filter-chip/filter-chip.component';
 
 
 
@@ -16,7 +17,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     PageLoadingComponent,
     SelectInfiniteScrollComponent,
     BackPageComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    FilterChipComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,6 @@
+<div class="ships" *ngIf="filteredItens.length > 0">
+  <div class="filterValue" *ngFor="let value of filteredItens" (click)="removeFilter(value)">
+    <p>{{ value }}</p> <img src="../../../assets/icons/close-icon.svg" alt="Close icon">
+  </div>
+  <button (click)="clearFilters()">Clear All</button>
+</div>

@@ -1,0 +1,46 @@
+.ships {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 48px 32px 48px;
+  color: #1c110a;
+  font-size: 16px;
+  font-weight: 600;
+
+  button {
+    padding: 8px 16px 8px 16px;
+    background: #ffffff;
+    color: #1c110a;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+
+  p {
+    color: #1c110a;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .filterValue {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    height: 32px;
+    background: #ffffff;
+    padding: 8px 16px 8px 16px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    img {
+      margin-left: 12px;
+    }
+  }
+
+  .filterValue:hover {
+    img {
+      filter: invert(21%) sepia(51%) saturate(5122%) hue-rotate(345deg) brightness(90%) contrast(106%);
+    }
+  }
+}
