@@ -29,7 +29,8 @@ import { FilterChipComponent } from './components/filter-chip/filter-chip.compon
     PageLoadingComponent,
     SelectInfiniteScrollComponent,
     BackPageComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    FilterChipComponent
   ]
 })
 export class SharedModule { }
