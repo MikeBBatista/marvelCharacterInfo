@@ -1,1 +1,22 @@
-<p>character-info works!</p>
+<app-back-page [title]="'BACK TO LIST'"></app-back-page>
+<section class="grid" *ngIf="!onLoad, else screenLoading">
+  <img [src]="imgSrc" alt="Image of {{ character.name }}">
+  <div class="content">
+    <h1>{{ character.name }}</h1>
+    <div class="content-description">
+      <p *ngIf="character.description.length > 0">{{ character.description }}</p>
+      <p *ngIf="character.description.length === 0">No description available!</p>
+    </div>
+    <div class="content-details">
+      <p>Number of comics: {{ character.comics.available }}:</p>
+      <p>Number of events: {{ character.events.available }}</p>
+      <p>Number of series: {{ character.series.available }}</p>
+      <p>Number of stories: {{ character.stories.available }}</p>
+      <p class="find-out">To know more about where this character appered <a [href]="moreInfo" target="_blank">click here!</a></p>
+    </div>
+  </div>
+</section>
+
+<ng-template #screenLoading>
+  <app-page-loading></app-page-loading>
+</ng-template>
