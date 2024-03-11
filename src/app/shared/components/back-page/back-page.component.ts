@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-back-page',
   templateUrl: './back-page.component.html',
   styleUrls: ['./back-page.component.scss']
 })
-export class BackPageComponent implements OnInit {
+export class BackPageComponent {
 
-  constructor() { }
+  @Input() title: string = '';
+  @Input() page: string = '/';
+  constructor(private router: Router,) { }
 
-  ngOnInit(): void {
+  backPage() {
+    this.router.navigate([this.page]);
   }
 
 }

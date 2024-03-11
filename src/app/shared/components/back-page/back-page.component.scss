@@ -1,0 +1,18 @@
+.back-page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px;
+  align-items: center;
+  cursor: pointer;
+
+  p {
+    font-size: 24px;
+    color: #808080;
+    margin-left: 4px;
+  }
+
+  img {
+    height: 24px;
+  }
+  
+}

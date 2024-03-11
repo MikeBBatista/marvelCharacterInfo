@@ -8,6 +8,7 @@ import { CharacterListComponent } from './pages/character-list/character-list.co
 import { CharacterInfoComponent } from './pages/character-info/character-info.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { BackPageComponent } from './shared/components/back-page/back-page.component';
+import { HeaderComponent } from './shared/components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BackPageComponent } from './shared/components/back-page/back-page.compo
     CharacterListComponent,
     CharacterInfoComponent,
     PageNotFoundComponent,
-    BackPageComponent
+    BackPageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

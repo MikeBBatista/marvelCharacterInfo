@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #ed1d24;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url('../../../../assets/imgs/head-image.png');
+  background-size: cover;
+  background-position: center;
+  .logo {
+    height: 64px;
+    width: 158px;
+    margin-left: 32px;
+  }
+}
