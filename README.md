@@ -1,7 +1,7 @@
 <html>
 <body>
   
- <h1 align="center"> NTT ltd - Teste técnico!</h1>
+ <h1 align="center"> Teste técnico!</h1>
   
   <p align="center">
  <a href="#-visão-geral-do-projeto-clipboard"> Visão Geral do Projeto</a> •
@@ -110,7 +110,7 @@
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/09c36151-e185-4805-aa72-b3ec9190c5e4" width="auto" alt=""/>
   </details>
   <h4 align="justify" style="font-family:roboto;">Conclusão</h4>
-  <p align="justify" style="font-family:roboto;">Esperamos que este guia de uso seja útil para você explorar e aproveitar ao máximo a aplicação Marvel Characters. Se tiver alguma dúvida ou problema, não hesite em entrar em contato conosco.</p>
+  <p align="justify" style="font-family:roboto;">Espero que este guia de uso seja útil para você explorar e aproveitar ao máximo a aplicação Marvel Characters. Se tiver alguma dúvida ou problema, não hesite em entrar em contato conosco.</p>
     
   ---
 
