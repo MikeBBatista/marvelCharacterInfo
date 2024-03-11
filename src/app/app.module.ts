@@ -9,7 +9,6 @@ import { CharacterInfoComponent } from './pages/character-info/character-info.co
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { CharactersSelectComponent } from './pages/character-list/characters-select/characters-select.component';
 import { CardComponent } from './shared/components/card/card.component';
-import { MarvelCharacterService } from './core/service/marvel-character.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,7 @@ import { MarvelCharacterService } from './core/service/marvel-character.service'
     AppRoutingModule,
     SharedModule,
   ],
-  providers: [MarvelCharacterService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
