@@ -38,8 +38,8 @@ export class CharacterInfoComponent implements OnInit {
           });
         },
         error: () => {
-          const errorMessage = 'Ocorreu um erro ao carregar os personagens. Por favor, tente novamente mais tarde.';
           this.onLoad = false;
+          const errorMessage = 'Ocorreu um erro ao carregar os personagens. Por favor, tente novamente mais tarde.';
           return throwError(() => new Error(errorMessage))
         }
       })

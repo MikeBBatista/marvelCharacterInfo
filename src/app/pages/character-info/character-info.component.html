@@ -1,5 +1,5 @@
 <app-back-page [title]="'BACK TO LIST'"></app-back-page>
-<section class="grid" *ngIf="!onLoad, else screenLoading">
+<section class="grid" *ngIf="!onLoad && character">
   <img [src]="imgSrc" alt="Image of {{ character.name }}">
   <div class="content">
     <h1>{{ character.name }}</h1>
@@ -17,6 +17,5 @@
   </div>
 </section>
 
-<ng-template #screenLoading>
-  <app-page-loading></app-page-loading>
-</ng-template>
+<p *ngIf="!onLoad && !character" class="no-results">Sorry, Nothing to see here</p>
+<app-page-loading *ngIf="onLoad"></app-page-loading>
