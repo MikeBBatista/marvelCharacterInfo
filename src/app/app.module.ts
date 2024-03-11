@@ -9,6 +9,7 @@ import { CharacterInfoComponent } from './pages/character-info/character-info.co
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { BackPageComponent } from './shared/components/back-page/back-page.component';
 import { HeaderComponent } from './shared/components/header/header.component';
+import { PageLoadingComponent } from './shared/components/page-loading/page-loading.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeaderComponent } from './shared/components/header/header.component';
     CharacterInfoComponent,
     PageNotFoundComponent,
     BackPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    PageLoadingComponent
   ],
   imports: [
     BrowserModule,

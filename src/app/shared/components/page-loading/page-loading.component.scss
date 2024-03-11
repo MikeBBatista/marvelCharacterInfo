@@ -1,0 +1,28 @@
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  height: 40px; /* Ajuste conforme necessário */
+
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333;
+    border-radius: 50%;
+    width: 10px; /* Ajuste conforme necessário */
+    height: 10px; /* Ajuste conforme necessário */
+    animation: spin 1s linear infinite;
+  }
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
