@@ -7,13 +7,15 @@ import { SharedModule } from './shared/shared.service';
 import { CharacterListComponent } from './pages/character-list/character-list.component';
 import { CharacterInfoComponent } from './pages/character-info/character-info.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { BackPageComponent } from './shared/components/back-page/back-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterListComponent,
     CharacterInfoComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BackPageComponent
   ],
   imports: [
     BrowserModule,
