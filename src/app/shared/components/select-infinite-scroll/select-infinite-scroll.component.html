@@ -1,1 +1,15 @@
-<p>select-infinite-scroll works!</p>
+<div>
+  <div class="input-container">
+    <input #textInput type="text" [value]="placeholder" (click)="selectClicked()" (blur)="closeOptions()" readonly>
+    <div class="icon-container" (click)="focusInput()">
+      <img *ngIf="isOpen" src="../../../../assets/icons/keyboard_arrow_down.svg" alt="Seta para baixo" class="icon-down">
+      <img *ngIf="!isOpen" src="../../../../assets/icons/keyboard_arrow_up.svg" alt="Seta para cima" class="icon-up">
+    </div>
+  </div>
+  <div  #mySelect class="custom-select" (scroll)="onScrollSelect()" *ngIf="isOpen">
+    <ul>
+      <li *ngFor="let option of data" (click)="returnOption(option.name)">{{ option.name }}</li>
+    </ul>
+    <app-page-loading *ngIf="isLoadingMore"></app-page-loading>
+  </div>
+</div>

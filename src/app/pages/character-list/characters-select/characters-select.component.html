@@ -1,1 +1,8 @@
-<p>characters-select works!</p>
+<app-select-infinite-scroll 
+  [data]="dataSelect" 
+  [placeholder]="selectPlaceholder"
+  [isLoadingMore]="selectOnLoad"
+  [totalItems]="totalItems"
+  (valueChanged)="getCharacterByName($event)"
+  (getMoreOption)="getOptionsData()">
+</app-select-infinite-scroll>
