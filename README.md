@@ -53,14 +53,14 @@
   <ul>
     <li style="font-family:roboto;">Node 14.21.3.</li>
     <li style="font-family:roboto;">Angular 13.3.11.</li>
-    <li style="font-family:roboto;">Uma chave de desenvolvedor da api pública da <a href="https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount">Marvel</a>.</li>
+    <li style="font-family:roboto;">Uma chave de desenvolvedor da api pública e outra privada da <a href="https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount">Marvel</a>.</li>
   </ul>
   
   ---
   
   <h2 style="font-family:roboto;"> Instruções de Instalação :dart:</h2>
      <p align="justify" style="font-family:roboto;">Com o projeto clonado em seu computador, utilize o comando "npm install" para que todas as depêndencias do projeto possam ser instaladas.</p>
-     <p align="justify" style="font-family:roboto;">Com a instalação dos pacotes finalizada, é hora de configurar o environment para que a aplicação possa consumir os dados da API pública da Marvel. No arquivo "environment.ts" preencha a variável "marvelPrivateKey" com sua chave privada do cadastro na API listada nos requisitos.</p>
+     <p align="justify" style="font-family:roboto;">Com a instalação dos pacotes finalizada, é hora de configurar o environment para que a aplicação possa consumir os dados da API pública da Marvel. No arquivo "environment.ts" preencha as variáveis "marvelPublicKey" "marvelPrivateKey" com suas chaves pública e privada do cadastro na API listada nos requisitos.</p>
  <details>
   <summary>Configuração do arquivo de environment</summary>
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/93b676fe-9416-4ba2-a778-25e2e8019c0f" width="auto;" alt=""/>
