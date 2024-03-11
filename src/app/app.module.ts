@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.service';
+import { CharacterListComponent } from './pages/character-list/character-list.component';
+import { CharacterInfoComponent } from './pages/character-info/character-info.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CharacterListComponent,
+    CharacterInfoComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
