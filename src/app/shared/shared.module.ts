@@ -8,6 +8,7 @@ import { SelectInfiniteScrollComponent } from './components/select-infinite-scro
 import { BackPageComponent } from './components/back-page/back-page.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { FilterChipComponent } from './components/filter-chip/filter-chip.component';
+import { CardComponent } from './components/card/card.component';
 
 
 
@@ -18,7 +19,8 @@ import { FilterChipComponent } from './components/filter-chip/filter-chip.compon
     SelectInfiniteScrollComponent,
     BackPageComponent,
     SearchBarComponent,
-    FilterChipComponent
+    FilterChipComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { FilterChipComponent } from './components/filter-chip/filter-chip.compon
     SelectInfiniteScrollComponent,
     BackPageComponent,
     SearchBarComponent,
-    FilterChipComponent
+    FilterChipComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }
