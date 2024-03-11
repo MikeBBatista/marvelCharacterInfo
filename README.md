@@ -6,7 +6,7 @@
   <p align="center">
  <a href="#-visão-geral-do-projeto-clipboard"> Visão Geral do Projeto</a> •
  <a href="#-pré-requisitos-computer">Pré Requisitos</a> •
- <a href="#-instruções-de-instalação">Instruções de Instalação</a> •
+ <a href="#-instruções-de-instalação-dart">Instruções de Instalação</a> •
  <a href="#-guia-de-uso-book">Guia de Uso</a>
 </p>
   
