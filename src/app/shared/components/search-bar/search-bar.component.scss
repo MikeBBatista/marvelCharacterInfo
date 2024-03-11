@@ -1,0 +1,19 @@
+.input-container {
+  position: relative;
+
+  .searchInput {
+    width: 350px;
+    height: 32px;
+    padding-left: 37px;
+    background-image: url('../../../../assets/icons/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 20px auto;
+
+    @media(max-width: 500px) {
+      width: 220px;
+    }
+  }
+}
+
+

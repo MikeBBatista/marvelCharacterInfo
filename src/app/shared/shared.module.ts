@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { PageLoadingComponent } from './components/page-loading/page-loading.component';
 import { SelectInfiniteScrollComponent } from './components/select-infinite-scroll/select-infinite-scroll.component';
 import { BackPageComponent } from './components/back-page/back-page.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 
 
@@ -15,6 +16,7 @@ import { BackPageComponent } from './components/back-page/back-page.component';
     PageLoadingComponent,
     SelectInfiniteScrollComponent,
     BackPageComponent,
+    SearchBarComponent
   ],
   imports: [
     CommonModule,
@@ -25,6 +27,7 @@ import { BackPageComponent } from './components/back-page/back-page.component';
     PageLoadingComponent,
     SelectInfiniteScrollComponent,
     BackPageComponent,
+    SearchBarComponent
   ]
 })
 export class SharedModule { }
