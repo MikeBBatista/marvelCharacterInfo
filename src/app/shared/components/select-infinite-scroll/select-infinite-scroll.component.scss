@@ -1,0 +1,45 @@
+.custom-select {
+  width: 237px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  overflow-x: hidden;
+  background-color: azure;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  ul li:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.input-container {
+  position: relative;
+
+  input[type="text"] {
+    font-size: 16px;
+    height: 32px;
+    padding-right: 30px;
+    padding-left: 12px;
+  }
+
+  .icon-container {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+}
+
+

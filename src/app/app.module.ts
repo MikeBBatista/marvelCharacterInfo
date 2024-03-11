@@ -10,6 +10,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { BackPageComponent } from './shared/components/back-page/back-page.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { PageLoadingComponent } from './shared/components/page-loading/page-loading.component';
+import { CharactersSelectComponent } from './pages/character-list/characters-select/characters-select.component';
+import { SelectInfiniteScrollComponent } from './shared/components/select-infinite-scroll/select-infinite-scroll.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +19,7 @@ import { PageLoadingComponent } from './shared/components/page-loading/page-load
     CharacterListComponent,
     CharacterInfoComponent,
     PageNotFoundComponent,
-    BackPageComponent,
-    HeaderComponent,
-    PageLoadingComponent
+    CharactersSelectComponent,
   ],
   imports: [
     BrowserModule,
