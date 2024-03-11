@@ -53,7 +53,7 @@
   <ul>
     <li style="font-family:roboto;">Node 14.21.3.</li>
     <li style="font-family:roboto;">Angular 13.3.11.</li>
-    <li style="font-family:roboto;">Uma chave de desenvolvedor da api pública da [Marvel](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount).</li>
+    <li style="font-family:roboto;">Uma chave de desenvolvedor da api pública da *[Marvel](https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount).</li>
   </ul>
   
   ---
