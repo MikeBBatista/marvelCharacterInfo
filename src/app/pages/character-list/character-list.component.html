@@ -10,7 +10,7 @@
     <span>Total results: {{totalItems}}</span>
   </div>
   <app-page-loading *ngIf="onLoad && filteredItens.length > 0"></app-page-loading>
-  <p *ngIf="this.totalItems === 0 && !this.onLoad" class="no-results">Sorry, Nothing to see here</p>
+  <app-no-results *ngIf="this.totalItems === 0 && !this.onLoad"></app-no-results>
   <div class="grid" (scroll)="onScroll()">
     <div class="div-card" *ngFor="let character of data">
       <app-card 

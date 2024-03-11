@@ -17,5 +17,5 @@
   </div>
 </section>
 
-<p *ngIf="!onLoad && !character" class="no-results">Sorry, Nothing to see here</p>
+<app-no-results *ngIf="!onLoad && !character" class="no-results"></app-no-results>
 <app-page-loading *ngIf="onLoad"></app-page-loading>

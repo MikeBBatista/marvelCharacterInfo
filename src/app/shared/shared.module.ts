@@ -9,6 +9,7 @@ import { BackPageComponent } from './components/back-page/back-page.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { FilterChipComponent } from './components/filter-chip/filter-chip.component';
 import { CardComponent } from './components/card/card.component';
+import { NoResultsComponent } from './components/no-results/no-results.component';
 
 
 
@@ -20,7 +21,8 @@ import { CardComponent } from './components/card/card.component';
     BackPageComponent,
     SearchBarComponent,
     FilterChipComponent,
-    CardComponent
+    CardComponent,
+    NoResultsComponent
   ],
   imports: [
     CommonModule,
@@ -33,7 +35,8 @@ import { CardComponent } from './components/card/card.component';
     BackPageComponent,
     SearchBarComponent,
     FilterChipComponent,
-    CardComponent
+    CardComponent,
+    NoResultsComponent
   ]
 })
 export class SharedModule { }
