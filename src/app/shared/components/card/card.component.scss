@@ -6,11 +6,6 @@
   background-color: #1c110a;
   cursor: pointer;
 
-  :hover {
-    background-color: #ed1d24;
-  }
-  
-
   .name {
     color: #1c110a;
     display: flex;
@@ -34,4 +29,8 @@
       width: 210px;
     }
   }
+}
+
+.card:hover {
+  background-color: #ed1d24;
 }
