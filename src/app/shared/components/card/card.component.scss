@@ -1,0 +1,37 @@
+.card {
+  height: 366px;
+  width: 210px;
+  padding: 12px;
+  display: block;
+  background-color: #1c110a;
+  cursor: pointer;
+
+  :hover {
+    background-color: #ed1d24;
+  }
+  
+
+  .name {
+    color: #1c110a;
+    display: flex;
+    background-color: white;
+    height: 92px;
+    width: 210px;
+    font-family: 'Be Vietnam Pro';
+    align-items: center;
+    p {
+      margin-left: 16px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+
+  .heroImg {
+    text-align:center;
+    padding-bottom: 12px;
+    img {
+      height: 256px;
+      width: 210px;
+    }
+  }
+}

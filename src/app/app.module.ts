@@ -12,6 +12,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { PageLoadingComponent } from './shared/components/page-loading/page-loading.component';
 import { CharactersSelectComponent } from './pages/character-list/characters-select/characters-select.component';
 import { SelectInfiniteScrollComponent } from './shared/components/select-infinite-scroll/select-infinite-scroll.component';
+import { CardComponent } from './shared/components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { SelectInfiniteScrollComponent } from './shared/components/select-infini
     CharacterInfoComponent,
     PageNotFoundComponent,
     CharactersSelectComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
