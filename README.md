@@ -1,7 +1,7 @@
 <html>
 <body>
   
- <h1 align="center"> NTT ltd - Teste técnico!</h1>
+ <h1 align="center"> Exercício com API pública da Marvel</h1>
   
   <p align="center">
  <a href="#-visão-geral-do-projeto-clipboard"> Visão Geral do Projeto</a> •
@@ -26,7 +26,7 @@
   
   <h2 style="font-family:roboto;"> Visão Geral do Projeto :clipboard:</h2>
   
-  <p align="justify" style="font-family:roboto;"> Este projeto é um teste técnico solicitado pela empresa NTT Brasil. A finalidade do teste é avaliar minhas habilidades como desenvolvedor front-end, especialmente em relação ao framework Angular. A aplicação web criada como parte deste teste consome uma API pública da Marvel para exibir informações sobre personagens do universo da Marvel.</p>
+  <p align="justify" style="font-family:roboto;">Este projeto tem como finalidade avaliar habilidades de desenvolvimento front-end, especialmente em relação ao framework Angular. A aplicação web consome uma API pública da Marvel para exibir informações sobre personagens do universo da Marvel.</p>
   <h3 style="font-family:roboto;"> Objetivos do Teste:</h3>
   <ul>
     <li style="font-family:roboto;">Demonstração de habilidades com Angular para desenvolvimento front-end.</li>
@@ -41,7 +41,6 @@
     <li style="font-family:roboto;">Pesquisa de personagens por nome.</li>
     <li style="font-family:roboto;">Integração com a API pública da Marvel para obter dados em tempo real.</li>
   </ul>
-  <p align="justify" style="font-family:roboto;">Este projeto demonstra meu conhecimento e experiência em desenvolvimento front-end com Angular, bem como minha capacidade de aprender e implementar soluções utilizando APIs externas.</p>
   
   ---
   
@@ -53,20 +52,20 @@
   <ul>
     <li style="font-family:roboto;">Node 14.21.3.</li>
     <li style="font-family:roboto;">Angular 13.3.11.</li>
-    <li style="font-family:roboto;">Uma chave de desenvolvedor da api pública da <a href="https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount">Marvel</a>.</li>
+    <li style="font-family:roboto;">Uma chave de desenvolvedor da api pública e outra privada da <a href="https://www.marvel.com/signin?referer=https%3A%2F%2Fdeveloper.marvel.com%2Faccount">Marvel</a>.</li>
   </ul>
   
   ---
   
   <h2 style="font-family:roboto;"> Instruções de Instalação :dart:</h2>
      <p align="justify" style="font-family:roboto;">Com o projeto clonado em seu computador, utilize o comando "npm install" para que todas as depêndencias do projeto possam ser instaladas.</p>
-     <p align="justify" style="font-family:roboto;">Com a instalação dos pacotes finalizada, é hora de configurar o environment para que a aplicação possa consumir os dados da API pública da Marvel. No arquivo "environment.ts" preencha a variável "marvelPrivateKey" com sua chave privada do cadastro na API listada nos requisitos.</p>
+     <p align="justify" style="font-family:roboto;">Com a instalação dos pacotes finalizada, é hora de configurar o environment para que a aplicação possa consumir os dados da API pública da Marvel. No arquivo "environment.ts" preencha as variáveis "marvelPublicKey" "marvelPrivateKey" com suas chaves pública e privada do cadastro na API listada nos requisitos.</p>
  <details>
   <summary>Configuração do arquivo de environment</summary>
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/93b676fe-9416-4ba2-a778-25e2e8019c0f" width="auto;" alt=""/>
 
   </details>
-  <p align="justify" style="font-family:roboto;">Com a configuração do arquivo completa, e com os requisitos cumpridos, tudo que precisamos fazer é utilizar o comando "ng serve" e o projeto deve rodar sem problemas. Com o projeto rodando, só precisamos entrar no endereço <a href="http://localhost:4200/">localhost</a>. Caso tudo tenha sido configurado de forma correta, você tera uma tela parecida com a da imagem abaixo.</p>
+  <p align="justify" style="font-family:roboto;">Com a configuração do arquivo completa, e com os requisitos cumpridos, basta é utilizar o comando "ng serve" e o projeto deve rodar sem problemas. Com o projeto rodando, acesse o endereço <a href="http://localhost:4200/">localhost</a>. Caso tudo tenha sido configurado de forma correta, você tera uma tela parecida com a da imagem abaixo.</p>
    <details>
   <summary>Demonstração da aplicação</summary>
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/2c3375f4-41e6-46fb-bb43-a82900ca184e" width="auto" alt=""/>
@@ -110,7 +109,7 @@
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/09c36151-e185-4805-aa72-b3ec9190c5e4" width="auto" alt=""/>
   </details>
   <h4 align="justify" style="font-family:roboto;">Conclusão</h4>
-  <p align="justify" style="font-family:roboto;">Esperamos que este guia de uso seja útil para você explorar e aproveitar ao máximo a aplicação Marvel Characters. Se tiver alguma dúvida ou problema, não hesite em entrar em contato conosco.</p>
+  <p align="justify" style="font-family:roboto;">Espero que este guia de uso seja útil para você explorar e aproveitar ao máximo a aplicação NTT Marvel Fans. Se tiver alguma dúvida ou problema, não hesite em entrar em contato.</p>
     
   ---
 
