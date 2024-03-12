@@ -1,7 +1,7 @@
 <html>
 <body>
   
- <h1 align="center"> Teste técnico!</h1>
+ <h1 align="center"> Exercício com API pública da Marvel</h1>
   
   <p align="center">
  <a href="#-visão-geral-do-projeto-clipboard"> Visão Geral do Projeto</a> •
@@ -26,7 +26,7 @@
   
   <h2 style="font-family:roboto;"> Visão Geral do Projeto :clipboard:</h2>
   
-  <p align="justify" style="font-family:roboto;"> Este projeto é um teste técnico solicitado pela empresa NTT Brasil. A finalidade do teste é avaliar minhas habilidades como desenvolvedor front-end, especialmente em relação ao framework Angular. A aplicação web criada como parte deste teste consome uma API pública da Marvel para exibir informações sobre personagens do universo da Marvel.</p>
+  <p align="justify" style="font-family:roboto;">Este projeto tem como finalidade avaliar habilidades de desenvolvimento front-end, especialmente em relação ao framework Angular. A aplicação web consome uma API pública da Marvel para exibir informações sobre personagens do universo da Marvel.</p>
   <h3 style="font-family:roboto;"> Objetivos do Teste:</h3>
   <ul>
     <li style="font-family:roboto;">Demonstração de habilidades com Angular para desenvolvimento front-end.</li>
@@ -41,7 +41,6 @@
     <li style="font-family:roboto;">Pesquisa de personagens por nome.</li>
     <li style="font-family:roboto;">Integração com a API pública da Marvel para obter dados em tempo real.</li>
   </ul>
-  <p align="justify" style="font-family:roboto;">Este projeto demonstra meu conhecimento e experiência em desenvolvimento front-end com Angular, bem como minha capacidade de aprender e implementar soluções utilizando APIs externas.</p>
   
   ---
   
@@ -110,7 +109,7 @@
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/09c36151-e185-4805-aa72-b3ec9190c5e4" width="auto" alt=""/>
   </details>
   <h4 align="justify" style="font-family:roboto;">Conclusão</h4>
-  <p align="justify" style="font-family:roboto;">Espero que este guia de uso seja útil para você explorar e aproveitar ao máximo a aplicação NTT Marvel Fans. Se tiver alguma dúvida ou problema, não hesite em entrar em contato conosco.</p>
+  <p align="justify" style="font-family:roboto;">Espero que este guia de uso seja útil para você explorar e aproveitar ao máximo a aplicação NTT Marvel Fans. Se tiver alguma dúvida ou problema, não hesite em entrar em contato.</p>
     
   ---
 
