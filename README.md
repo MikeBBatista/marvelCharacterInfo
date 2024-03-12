@@ -78,7 +78,7 @@
   <p align="justify" style="font-family:roboto;">Na página inicial da aplicação, você encontrará uma lista de personagens da Marvel Comics. Você pode navegar por essa lista para descobrir informações sobre cada personagem.</p>
   <p align="justify" style="font-family:roboto;">Filtragem:</p>
   <ul>
-    <li style="font-family:roboto;"><b>Search Bar:</b> Você pode filtrar os personagens digitando o nome na barra de pesquisa localizada no topo da página. A lista de personagens será atualizada quando você apertar "enter".</li>
+    <li style="font-family:roboto;"><b>Search Bar:</b> Você pode filtrar os personagens digitando o nome na barra de pesquisa localizada no topo da página. A lista de personagens será atualizada automáticamente após meio segundo digitado.</li>
     <li style="font-family:roboto;"><b>Select:</b> Além disso, você pode selecionar um herói na caixa de seleção localizada ao lado da barra de pesquisa. Isso permitirá que você filtre os personagens. Você pode adicionar vários heróis acumulativamente.</li>
   </ul>
   <br>
