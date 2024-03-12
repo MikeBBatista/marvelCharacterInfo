@@ -2,7 +2,7 @@
   <input 
     type="text" 
     class="searchInput" 
-    (keyup.enter)="doSearch()" 
+    (keyup)="onSearchInput($event)" 
     [(ngModel)]="searchInput" 
     placeholder="Search your favorite character..."
     >
