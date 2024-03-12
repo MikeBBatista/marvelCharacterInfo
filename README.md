@@ -65,7 +65,7 @@
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/93b676fe-9416-4ba2-a778-25e2e8019c0f" width="auto;" alt=""/>
 
   </details>
-  <p align="justify" style="font-family:roboto;">Com a configuração do arquivo completa, e com os requisitos cumpridos, tudo que precisamos fazer é utilizar o comando "ng serve" e o projeto deve rodar sem problemas. Com o projeto rodando, só precisamos entrar no endereço <a href="http://localhost:4200/">localhost</a>. Caso tudo tenha sido configurado de forma correta, você tera uma tela parecida com a da imagem abaixo.</p>
+  <p align="justify" style="font-family:roboto;">Com a configuração do arquivo completa, e com os requisitos cumpridos, basta é utilizar o comando "ng serve" e o projeto deve rodar sem problemas. Com o projeto rodando, acesse o endereço <a href="http://localhost:4200/">localhost</a>. Caso tudo tenha sido configurado de forma correta, você tera uma tela parecida com a da imagem abaixo.</p>
    <details>
   <summary>Demonstração da aplicação</summary>
    <img style="border-radius: 50%;" src="https://github.com/MikeBBatista/marvelCharacterInfo/assets/46934773/2c3375f4-41e6-46fb-bb43-a82900ca184e" width="auto" alt=""/>
